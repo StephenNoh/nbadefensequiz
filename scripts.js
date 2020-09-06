@@ -179,9 +179,9 @@ function selectAnswer(e) {
     finalScore.innerHTML=
     `<div style="font-weight:bold;">Final Score: ${correctAnswers} correct out of ${shuffledQuestions.length}.</div>
     <hr>
-    <div>0-4 correct: Average NBA fan. Retake the quiz and click on the links to learn the concepts you're missing.</div>
-    <div>5-8 correct: You're a student of the game!</div>
-    <div>9+ correct: Congrats, you're an expert!</div>`
+    <div>0-3 correct: Average NBA fan. Retake the quiz and click on the links to learn the concepts you're missing.</div>
+    <div>4-7 correct: You're a student of the game!</div>
+    <div>8+ correct: Congrats, you're an expert!</div>`
   }
   if (selectedButton.dataset = correct) {
     correctAnswers++;
