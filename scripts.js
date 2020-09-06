@@ -122,7 +122,7 @@ const videoElement = document.getElementById('video')
 const finalScore = document.getElementById("final-score")
 const intro = document.querySelector(".intro")
 
-let shuffledQuestions, currentQuestionIndex
+let currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -133,7 +133,6 @@ nextButton.addEventListener('click', () => {
 function startGame() {
     correctAnswers = 0
     startButton.classList.add('hide')
-    shuffledQuestions = questions.sort()
     currentQuestionIndex = 0
     questionContainerElement.classList.remove('hide')
     finalScore.classList.add("hide")
@@ -143,7 +142,7 @@ function startGame() {
 
 function setNextQuestion() {
   resetState()
-  showQuestion(shuffledQuestions[currentQuestionIndex])
+  showQuestion(questions[currentQuestionIndex])
 }
 
 function showQuestion(question) {
@@ -190,7 +189,7 @@ function selectAnswer(e) {
     setStatusClass(button, button.dataset.correct)
   })
   
-  if (shuffledQuestions.length > currentQuestionIndex + 1) {
+  if (questions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
     document.getElementById('missed-concepts-id').classList.remove('hide')
     answerButtonsElement.classList.add('disable')
@@ -202,7 +201,7 @@ function selectAnswer(e) {
     if (selectedButton.dataset = correct) {
         correctAnswers++;}
     finalScore.innerHTML=
-    `<div style="font-weight:bold;">Final Score: ${correctAnswers} correct out of ${shuffledQuestions.length}.</div>
+    `<div style="font-weight:bold;">Final Score: ${correctAnswers} correct out of ${questions.length}.</div>
     <hr>
     <div>0-3 correct: Average NBA fan. Retake the quiz and click on the links to learn the concepts you're missing.</div>
     <div>4-7 correct: You're a student of the game!</div>
@@ -226,4 +225,3 @@ function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
 }
-
