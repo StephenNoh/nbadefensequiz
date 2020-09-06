@@ -1,6 +1,6 @@
 const questions = [
 {
-    question: "Who screwed up?",
+    question: "1. Who screwed up?",
     choices: ["Kanter (no. 11), he should have gotten back to Ibaka faster.", "Grant Williams (no. 12). He left his man Siakam, who scored.", "Brad Wanamaker (no. 9). He was supposed to be helping on Anunoby when Williams rotated over.", "Jayson Tatum. He should have come over to help."],
     answer: 2,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900213/445/7764d155-b0d7-519c-47f0-f9ec12dc454a_1280x720.mp4",
@@ -8,7 +8,7 @@ const questions = [
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
 {
-    question: "Assume the Clippers are in a blitz defense. Who screwed up?",
+    question: "2. Assume the Clippers are in a blitz defense. Who screwed up?",
     choices: ["Kawhi Leonard. He should have switched onto Jokic.", "Montrezl Harrell. He was the low man and should have pulled over to the middle to stop the drive.", "Reggie Jackson (at the elbow). He didn't even take a step into the paint to stop Jokic.", "Lou Williams (guarding the corner). He was the closest man to Jokic."],
     answer: 1,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900231/130/0771e685-2407-3bab-77be-0cb580a363d4_1280x720.mp4",
@@ -16,7 +16,7 @@ const questions = [
     conceptLink: "https://medium.com/the-basketball-dictionary/trap-the-box-c4ebe20d3929"
 },
 {
-    question: "Who screwed up?",
+    question: "3. Who screwed up?",
     choices: ["Siakam. He was the sink man and he left Robert Williams too early, allowing a dunk.", "Ibaka. He overhelped, and Williams was his man.", "Norman Powell. He's sitting at the free throw line a foot away from Williams the entire play and not even moving.", "Anunoby. He went up to contest the dunk but switched over too late."],
     answer: 0,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/01/0041900212/99/e42e49cc-c770-adfc-da49-a8a04c98fbdb_1280x720.mp4",
@@ -24,7 +24,7 @@ const questions = [
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
 {
-    question: "Assume Denver is in a blitz. Who screwed up?",
+    question: "4. Assume Denver is in a blitz. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/01/0041900167/53/7de39e7b-8e3f-a446-50d3-2083c03804ac_1280x720.mp4",
     choices: ["Jokic. Gobert was his man.", "Murray. He needs to come down and double team Gobert when he catches that ball.", "Monte Morris (guarding the ball). He and Jokic should have switched.", "Millsap. He was in good position but he gambled for the steal."],
     answer: 3,
@@ -32,14 +32,14 @@ const questions = [
     conceptLink: "https://medium.com/the-basketball-dictionary/trap-the-box-c4ebe20d3929"
 },
 {
-    question: "Assume Toronto's scheme is to switch all picks up top. Who screwed up?",
+    question: "5. Assume Toronto's scheme is to switch all picks up top. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/08/30/0041900211/672/2106479e-b8d8-f9a9-422f-52da1d61c449_1280x720.mp4",
     choices: ["Terence Davis (no. 0). He didn't switch, and his man cut to the hoop for a dunk.", "Matt Thomas (no. 21). The guy who dunked was his original responsibility.", "Rondae Hollis-Jefferson (no. 4). He bit on an easy pump fake and had a bad contest on the dunk.", "Chris Boucher (no. 25). He's guarding the ball but he's supposed to have switched."],
     answer: 0,
     concept: "switching"
 },
 {
-    question: "The Clippers are blitzing to get the ball out of Doncic's hands. Who screwed up?",
+    question: "6. The Clippers are blitzing to get the ball out of Doncic's hands. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/08/25/0041900155/259/c93ef597-abe8-778e-3a22-7c6654123382_1280x720.mp4",
     answer: 2,
     choices: ["Landry Shamet. He should have left the corner to go help in the middle.", "Kawhi Leonard. He has to hustle to get in the paint and protect against a layup.", "Paul George. He was late helping the helper.", "Marcus Morris. The guy who dunked was his man, and Morris was overhelping."],
@@ -47,7 +47,7 @@ const questions = [
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
 {
-    question: "Assume the Celtics are switching pick-and-rolls. Who screwed up?",
+    question: "7. Assume the Celtics are switching pick-and-rolls. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/05/0041900214/500/3fd6dccf-e607-b9f6-8f5b-86d14c803dc8_1280x720.mp4",
     answer: 1,
     choices: ["Kemba Walker (no. 8). He should have stayed with his man VanVleet.", "Jaylen Brown (no. 7). Brown was responsible for taking Grant Williams' guy when Williams shifted to protect the rim, and Brown lost track of Ibaka.", "Grant Williams (no. 12). Ibaka was his man originally, and Williams let him cut behind for the dunk.", "Marcus Smart (no. 36). He's supposed to sink down and take Williams' man."],
@@ -55,14 +55,14 @@ const questions = [
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
 {
-    question: "Who screwed up?",
+    question: "8. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/04/0041900221/389/0c4a29fa-b4e1-17bf-4bc8-61d2f0d6556d_1280x720.mp4",
     answer: 0,
     choices: ["Kentavious Caldwell-Pope (no. 1). Unclear what he is doing, he should not have left Gordon open in the corner.", "Kuzma. He was supposed to switch with Caldwell-Pope.", "Danny Green. Can't allow yourself to get screened off like that.", "Anthony Davis. He should have called for the switch when he got matched up against Harden."],
     concept: "overhelping"
 },
 {
-    question: "Assume the Bucks are dropping Giannis in pick-and-roll coverage. What might be a more effective defensive scheme here against a shooting big man like Porzingis?",
+    question: "9. Assume the Bucks are dropping Giannis in pick-and-roll coverage. What might be a more effective defensive scheme here against a shooting big man like Porzingis?",
     link: "./porzingis.mp4",
     choices: ["Have Wes Matthews (no. 9) execute a peel back switch.", "Have Giannis show instead of drop.", "Switch all pick-and-rolls involving Matthews and Giannis.", "All of the above."],
     answer: 3,
@@ -70,7 +70,7 @@ const questions = [
     conceptLink: "https://www.sbnation.com/2014/4/18/5601402/nba-pick-and-roll-defense-playoffs-2014"
 },
 {
-    question: "Why is Mason Plumlee not called for a defensive 3 second violation here?",
+    question: "10. Why is Mason Plumlee not called for a defensive 3 second violation here?",
     link: "./plumleeshort.mp4",
     choices: ["The NBA removed the defensive 3 second violation rule when they made zone defenses legal.", "Plumlee first tags Gobert, then gets both feet out of the lane, resetting or 'cleansing' his 3 second clock each time.", "Plumlee first got his right foot outside of the lane while his left foot stayed in. He then jumped out of the lane. Each time, he reset or 'cleansed' his 3 second clock.", "Teams are allowed to have a man in the middle if they are clearly playing a zone."],
     answer: 1,
@@ -78,7 +78,7 @@ const questions = [
     conceptLink: "https://theathletic.com/645539/2018/11/15/how-wendell-carter-jr-has-become-a-rim-protecting-prodigy/"
 },
 {
-    question: "Who screwed up?",
+    question: "11. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900213/133/31205d4b-a9e9-73db-2cc2-00f522d23e19_1280x720.mp4",
     answer: 2,
     choices: ["Semi Ojeleye (no. 37). He overhelped, leaving his man open for 3.", "Robert Williams (no. 44). He's supposed to rotate from the paint to the 3-point line.", "Kemba Walker. Once he sees Ojeleye rotate to his man, he's supposed to x-out and get the shooter up top. He was too slow to react.", "No one. This play was defended well."],
@@ -133,7 +133,7 @@ nextButton.addEventListener('click', () => {
 function startGame() {
     correctAnswers = 0
     startButton.classList.add('hide')
-    shuffledQuestions = questions.sort(() => Math.random() - .5)
+    shuffledQuestions = questions.sort()
     currentQuestionIndex = 0
     questionContainerElement.classList.remove('hide')
     finalScore.classList.add("hide")
