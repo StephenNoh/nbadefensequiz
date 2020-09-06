@@ -26,7 +26,7 @@ const questions = [
 {
     question: "Assume Denver is in a blitz. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/01/0041900167/53/7de39e7b-8e3f-a446-50d3-2083c03804ac_1280x720.mp4",
-    choices: ["Jokic. Gobert was his man.", "Murray. He needs to come down and double team Gobert when he catches that ball.", "Dante Exum (guarding the ball). He and Jokic should have switched.", "Millsap. He was in good position but he gambled for the steal."],
+    choices: ["Jokic. Gobert was his man.", "Murray. He needs to come down and double team Gobert when he catches that ball.", "Monte Morris (guarding the ball). He and Jokic should have switched.", "Millsap. He was in good position but he gambled for the steal."],
     answer: 3,
     concept: "low man",
     conceptLink: "https://medium.com/the-basketball-dictionary/trap-the-box-c4ebe20d3929"
