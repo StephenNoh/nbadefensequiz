@@ -47,19 +47,12 @@ const questions = [
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
 {
-    question: "Who screwed up?",
-    link: "https://videos.nba.com/nba/pbp/media/2020/09/04/0041900221/180/eb082c22-7356-0d5c-9312-307bcb8aafa2_1280x720.mp4",
-    choices: ["Dwight Howard. He overhelped.", "Markieff Morris. He should have rotated over.", "Alex Caruso. He overhelped and Covington was his man.", "Nobody. This play was guarded well, despite the result."],
-    answer: 3,
+    question: "Assume the Celtics are switching pick-and-rolls. Who screwed up?",
+    link: "https://videos.nba.com/nba/pbp/media/2020/09/05/0041900214/500/3fd6dccf-e607-b9f6-8f5b-86d14c803dc8_1280x720.mp4",
+    answer: 1,
+    choices: ["Kemba Walker (no. 8). He should have stayed with his man VanVleet.", "Jaylen Brown (no. 7). Brown was responsible for taking Grant Williams' guy when Williams shifted to protect the rim, and Brown lost track of Ibaka.", "Grant Williams (no. 12). Ibaka was his man originally, and Williams let him cut behind for the dunk.", "Marcus Smart (no. 36). He's supposed to sink down and take Williams' man."],
     concept: "sink man",
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
-},
-{
-    question: "Who screwed up?",
-    link: "https://videos.nba.com/nba/pbp/media/2020/09/04/0041900221/255/764d306e-0ead-4822-3425-86dd317408b3_1280x720.mp4",
-    answer: 1,
-    choices: ["Rondo. Why is he freelancing from the opposite side of the court?", "Anthony Davis. He's overhelping on a man that's not his responsibility and leaving a shooter open one pass away.", "Dwight Howard. He's supposed to rotate to the corner once they contain the pick-and-roll.", "No one. This play was guarded well."],
-    concept: "overhelping"
 },
 {
     question: "Who screwed up?",
@@ -68,14 +61,22 @@ const questions = [
     choices: ["Kentavious Caldwell-Pope (no. 1). Unclear what he is doing, he should not have left Gordon open in the corner.", "Kuzma. He was supposed to switch with Caldwell-Pope.", "Danny Green. Can't allow yourself to get screened off like that.", "Anthony Davis. He should have called for the switch when he got matched up against Harden."],
     concept: "overhelping"
 },
-// {
-//     question: "Who screwed up?",
-//     link: "https://videos.nba.com/nba/pbp/media/2020/08/13/0021901313/370/c7ae33a0-ba80-fd50-08c6-60cdb8ef8737_1280x720.mp4",
-//     choices: ["Devin Booker (no. 1). He's the fill man and he's responsible for cutters in the paint.", "Cam Johnson (no. 23). He's next to the basket and responsible for protecting it.", "DeAndre Ayton. He's the big man, and he should always protect the rim.", "Ricky Rubio (no. 8). He's not guarding the ball any more and should find a man to check."],
-//     answer: 0,
-//     concept: "fill man",
-//     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
-// },
+{
+    question: "Assume the Bucks are dropping Giannis in pick-and-roll coverage. What might be a more effective defensive scheme here against a shooting big man like Porzingis?",
+    link: "./porzingis.mp4",
+    choices: ["Have Wes Matthews (no. 9) execute a peel back switch.", "Have Giannis show instead of drop.", "Switch all pick-and-rolls involving Matthews and Giannis.", "All of the above."],
+    answer: 3,
+    concept: "defensive pick and roll coverages",
+    conceptLink: "https://www.sbnation.com/2014/4/18/5601402/nba-pick-and-roll-defense-playoffs-2014"
+},
+{
+    question: "Why is Mason Plumlee not called for a defensive 3 second violation here?",
+    link: "./plumleeshort.mp4",
+    choices: ["The NBA removed the defensive 3 second violation rule when they made zone defenses legal.", "Plumlee first tags Gobert, then gets both feet out of the lane, resetting or 'cleansing' his 3 second clock each time.", "Plumlee first got his right foot outside of the lane while his left foot stayed in. He then jumped out of the lane. Each time, he reset or 'cleansed' his 3 second clock.", "Teams are allowed to have a man in the middle if they are clearly playing a zone."],
+    answer: 1,
+    concept: "tag-and-cleanse, 2.9-ing",
+    conceptLink: "https://theathletic.com/645539/2018/11/15/how-wendell-carter-jr-has-become-a-rim-protecting-prodigy/"
+},
 {
     question: "Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900213/133/31205d4b-a9e9-73db-2cc2-00f522d23e19_1280x720.mp4",
@@ -84,6 +85,30 @@ const questions = [
     concept: "x-out",
     conceptLink: "https://medium.com/the-basketball-dictionary/x-out-78e01e2e4c9d"
 }
+// ,{
+//     question: "Who screwed up?",
+//     link: "https://videos.nba.com/nba/pbp/media/2020/09/04/0041900221/180/eb082c22-7356-0d5c-9312-307bcb8aafa2_1280x720.mp4",
+//     choices: ["Dwight Howard. He overhelped.", "Markieff Morris. He should have rotated over.", "Alex Caruso. He overhelped and Covington was his man.", "Nobody. This play was guarded well, despite the result."],
+//     answer: 3,
+//     concept: "sink man",
+//     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
+// },
+// {
+//     question: "Who screwed up?",
+//     link: "https://videos.nba.com/nba/pbp/media/2020/09/04/0041900221/255/764d306e-0ead-4822-3425-86dd317408b3_1280x720.mp4",
+//     answer: 1,
+//     choices: ["Rondo. Why is he freelancing from the opposite side of the court?", "Anthony Davis. He's overhelping on a man that's not his responsibility and leaving a shooter open one pass away.", "Dwight Howard. He's supposed to rotate to the corner once they contain the pick-and-roll.", "No one. This play was guarded well."],
+//     concept: "overhelping"
+// },
+
+// {
+//     question: "Who screwed up?",
+//     link: "https://videos.nba.com/nba/pbp/media/2020/08/13/0021901313/370/c7ae33a0-ba80-fd50-08c6-60cdb8ef8737_1280x720.mp4",
+//     choices: ["Devin Booker (no. 1). He's the fill man and he's responsible for cutters in the paint.", "Cam Johnson (no. 23). He's next to the basket and responsible for protecting it.", "DeAndre Ayton. He's the big man, and he should always protect the rim.", "Ricky Rubio (no. 8). He's not guarding the ball any more and should find a man to check."],
+//     answer: 0,
+//     concept: "fill man",
+//     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
+// }
 ]
 
 let correctAnswers = 0
