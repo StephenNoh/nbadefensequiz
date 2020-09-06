@@ -1,7 +1,7 @@
 const questions = [
 {
     question: "Who screwed up?",
-    choices: ["Kanter (no. 11), he should have gotten back to Ibaka faster.", "Grant Williams (no. 12). He left his man Siakam, who scored.", "Kemba Walker (no. 9). He was supposed to be helping on Anunoby when Williams rotated over.", "Jayson Tatum. He should have come over to help."],
+    choices: ["Kanter (no. 11), he should have gotten back to Ibaka faster.", "Grant Williams (no. 12). He left his man Siakam, who scored.", "Brad Wanamaker (no. 9). He was supposed to be helping on Anunoby when Williams rotated over.", "Jayson Tatum. He should have come over to help."],
     answer: 2,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900213/445/7764d155-b0d7-519c-47f0-f9ec12dc454a_1280x720.mp4",
     concept: "sink",
@@ -65,9 +65,17 @@ const questions = [
     question: "Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/04/0041900221/389/0c4a29fa-b4e1-17bf-4bc8-61d2f0d6556d_1280x720.mp4",
     answer: 0,
-    choices: ["Rondo. Unclear what he is doing, he should not have left Gordon open in the corner.", "Kuzma. He was supposed to switch with Rondo.", "Danny Green. Can't allow yourself to get screened off like that.", "Anthony Davis. He should have called for the switch when he got matched up against Harden."],
+    choices: ["Kentavious Caldwell-Pope (no. 1). Unclear what he is doing, he should not have left Gordon open in the corner.", "Kuzma. He was supposed to switch with Rondo.", "Danny Green. Can't allow yourself to get screened off like that.", "Anthony Davis. He should have called for the switch when he got matched up against Harden."],
     concept: "overhelping"
 },
+// {
+//     question: "Who screwed up?",
+//     link: "https://videos.nba.com/nba/pbp/media/2020/08/13/0021901313/370/c7ae33a0-ba80-fd50-08c6-60cdb8ef8737_1280x720.mp4",
+//     choices: ["Devin Booker (no. 1). He's the fill man and he's responsible for cutters in the paint.", "Cam Johnson (no. 23). He's next to the basket and responsible for protecting it.", "DeAndre Ayton. He's the big man, and he should always protect the rim.", "Ricky Rubio (no. 8). He's not guarding the ball any more and should find a man to check."],
+//     answer: 0,
+//     concept: "fill man",
+//     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
+// },
 {
     question: "Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900213/133/31205d4b-a9e9-73db-2cc2-00f522d23e19_1280x720.mp4",
@@ -75,14 +83,6 @@ const questions = [
     choices: ["Semi Ojeleye (no. 37). He overhelped, leaving his man open for 3.", "Robert Williams (no. 44). He's supposed to rotate from the paint to the 3-point line.", "Kemba Walker. Once he sees Ojeleye rotate to his man, he's supposed to x-out and get the shooter up top. He was too slow to react.", "No one. This play was defended well."],
     concept: "x-out",
     conceptLink: "https://medium.com/the-basketball-dictionary/x-out-78e01e2e4c9d"
-},
-{
-    question: "Who screwed up?",
-    link: "https://videos.nba.com/nba/pbp/media/2020/08/13/0021901313/370/c7ae33a0-ba80-fd50-08c6-60cdb8ef8737_1280x720.mp4",
-    choices: ["Devin Booker (no. 1). He's the fill man and he's responsible for cutters in the paint.", "Cam Johnson (no. 23). He's next to the basket and responsible for protecting it.", "DeAndre Ayton. He's the big man, and he should always protect the rim.", "Ricky Rubio (no. 8). He's not guarding the ball any more and should find a man to check."],
-    answer: 0,
-    concept: "fill man",
-    conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 }
 ]
 
