@@ -65,7 +65,7 @@ const questions = [
     question: "Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/04/0041900221/389/0c4a29fa-b4e1-17bf-4bc8-61d2f0d6556d_1280x720.mp4",
     answer: 0,
-    choices: ["Kentavious Caldwell-Pope (no. 1). Unclear what he is doing, he should not have left Gordon open in the corner.", "Kuzma. He was supposed to switch with Rondo.", "Danny Green. Can't allow yourself to get screened off like that.", "Anthony Davis. He should have called for the switch when he got matched up against Harden."],
+    choices: ["Kentavious Caldwell-Pope (no. 1). Unclear what he is doing, he should not have left Gordon open in the corner.", "Kuzma. He was supposed to switch with Caldwell-Pope.", "Danny Green. Can't allow yourself to get screened off like that.", "Anthony Davis. He should have called for the switch when he got matched up against Harden."],
     concept: "overhelping"
 },
 // {
