@@ -114,6 +114,7 @@ const questions = [
 let correctAnswers = 0
 
 const startButton = document.getElementById('start-btn')
+const otherButton = document.getElementById('other-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
@@ -133,6 +134,7 @@ nextButton.addEventListener('click', () => {
 function startGame() {
     correctAnswers = 0
     startButton.classList.add('hide')
+    otherButton.classList.add('hide')
     currentQuestionIndex = 0
     questionContainerElement.classList.remove('hide')
     finalScore.classList.add("hide")
@@ -198,6 +200,7 @@ function selectAnswer(e) {
     startButton.classList.remove('hide')
     document.getElementById('missed-concepts-id').classList.remove('hide')
     finalScore.classList.remove('hide')
+    otherButton.classList.remove('hide')
     if (selectedButton.dataset = correct) {
         correctAnswers++;}
     finalScore.innerHTML=

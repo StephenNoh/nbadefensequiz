@@ -68,12 +68,15 @@
     --hue: var(--hue-wrong);
   }
   
-  .start-btn, .next-btn {
+  .start-btn, .next-btn, .other-btn {
     font-size: 1rem;
     font-weight: bold;
     padding: 10px 20px;
   }
   
+  .other-btn {
+    margin-left: 50px;
+  }
   .controls {
     display: flex;
     justify-content: center;
