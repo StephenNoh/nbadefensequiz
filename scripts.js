@@ -1,7 +1,7 @@
 const questions = [
 {
     question: "1. Who screwed up?",
-    choices: ["Kanter (no. 11), he should have gotten back to Ibaka faster.", "Grant Williams (no. 12). He left his man Siakam, who scored.", "Brad Wanamaker (no. 9). He was supposed to be helping on Anunoby when Williams rotated over.", "Jayson Tatum. He should have come over to help."],
+    choices: ["Kanter (no. 11), he should have gotten back to Ibaka faster.", "Grant Williams (no. 12). He left his man Siakam, who scored.", "Brad Wanamaker (no. 9). He was supposed to be helping on Siakam when Williams rotated over.", "Jayson Tatum. He should have come over to help."],
     answer: 2,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900213/445/7764d155-b0d7-519c-47f0-f9ec12dc454a_1280x720.mp4",
     concept: "sink",
