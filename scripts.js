@@ -1,7 +1,7 @@
 const questions = [
 {
     question: "1. Who screwed up?",
-    choices: ["Kanter (no. 11), he should have gotten back to Ibaka faster.", "Grant Williams (no. 12). He left his man Siakam, who scored.", "Brad Wanamaker (no. 9). He was supposed to be helping on Siakam when Williams rotated over.", "Jayson Tatum. He should have come over to help."],
+    choices: ["Kanter (no. 11), he should have gotten back to Ibaka faster.", "Grant Williams (no. 12). He left his man Siakam, who scored.", "Brad Wanamaker (no. 9). He was supposed to be helping on Siakam when Williams rotated over.", "Jayson Tatum (no. 0). He should have come over to help."],
     answer: 2,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900213/445/7764d155-b0d7-519c-47f0-f9ec12dc454a_1280x720.mp4",
     concept: "sink",
@@ -9,7 +9,7 @@ const questions = [
 },
 {
     question: "2. Assume the Clippers are hedging pick-and-rolls. Who screwed up?",
-    choices: ["Kawhi Leonard. He should have switched onto Jokic.", "Montrezl Harrell. He was the low man and should have pulled over to the middle to stop the drive.", "Reggie Jackson (at the elbow). He didn't even take a step into the paint to stop Jokic.", "Lou Williams (guarding the corner). He was the closest man to Jokic."],
+    choices: ["Kawhi Leonard (no. 2, guarding the ball initially). He should have switched onto Jokic.", "Montrezl Harrell (no. 5). He was the low man and should have pulled over to the middle to stop the drive.", "Reggie Jackson (no. 4, at the elbow). He didn't even take a step into the paint to stop Jokic.", "Lou Williams (guarding the corner, no.23). He was the closest man to Jokic."],
     answer: 1,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900231/130/0771e685-2407-3bab-77be-0cb580a363d4_1280x720.mp4",
     concept: "low man",
@@ -17,7 +17,7 @@ const questions = [
 },
 {
     question: "3. Who screwed up?",
-    choices: ["Siakam. He was the sink man and he left Robert Williams too early, allowing a dunk.", "Ibaka. He overhelped, and Williams was his man.", "Norman Powell. He's sitting at the free throw line a foot away from Williams the entire play and not even moving.", "Anunoby. He went up to contest the dunk but switched over too late."],
+    choices: ["Siakam (no. 43). He was the sink man and he left Robert Williams too early, allowing a dunk.", "Ibaka (no. 9). He overhelped, and Williams was his man.", "Norman Powell (no. 24). He's sitting at the free throw line a foot away from Williams the entire play and not even moving.", "Anunoby (no. 3). He went up to contest the dunk but switched over too late."],
     answer: 0,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/01/0041900212/99/e42e49cc-c770-adfc-da49-a8a04c98fbdb_1280x720.mp4",
     concept: "sink man",
@@ -26,7 +26,7 @@ const questions = [
 {
     question: "4. Assume Denver is in a hedge. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/01/0041900167/53/7de39e7b-8e3f-a446-50d3-2083c03804ac_1280x720.mp4",
-    choices: ["Jokic. Gobert was his man.", "Murray. He needs to come down and double team Gobert when he catches that ball.", "Monte Morris (guarding the ball). He and Jokic should have switched.", "Millsap. He was in good position but he gambled for the steal."],
+    choices: ["Jokic (no. 15). Gobert was his man.", "Murray (no. 27). He needs to come down and double team Gobert when he catches that ball.", "Monte Morris (no. 11, guarding the ball). He and Jokic should have switched.", "Millsap (no. 4). He was in good position but he gambled for the steal."],
     answer: 3,
     concept: "low man",
     conceptLink: "https://medium.com/the-basketball-dictionary/trap-the-box-c4ebe20d3929"
@@ -42,7 +42,7 @@ const questions = [
     question: "5. The Clippers are blitzing to get the ball out of Doncic's hands. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/08/25/0041900155/259/c93ef597-abe8-778e-3a22-7c6654123382_1280x720.mp4",
     answer: 2,
-    choices: ["Landry Shamet. He should have left the corner to go help in the middle.", "Kawhi Leonard. He has to hustle to get in the paint and protect against a layup.", "Paul George. He was late helping the helper.", "Marcus Morris. The guy who dunked was his man, and Morris was overhelping."],
+    choices: ["Landry Shamet (no. 20). He should have left the corner to go help in the middle.", "Kawhi Leonard (no. 2). He has to hustle to get in the paint and protect against a layup.", "Paul George (no. 13). He was late helping the helper.", "Marcus Morris (no. 3). The guy who dunked was his man, and Morris was overhelping."],
     concept: "sink man",
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
@@ -58,7 +58,7 @@ const questions = [
     question: "7. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/04/0041900221/389/0c4a29fa-b4e1-17bf-4bc8-61d2f0d6556d_1280x720.mp4",
     answer: 0,
-    choices: ["Kentavious Caldwell-Pope (no. 1). Unclear what he is doing, he should not have left Gordon open in the corner.", "Kuzma. He was supposed to switch with Caldwell-Pope.", "Danny Green. Can't allow yourself to get screened off like that.", "Anthony Davis. He should have called for the switch when he got matched up against Harden."],
+    choices: ["Kentavious Caldwell-Pope (no. 1). Unclear what he is doing, he should not have left Gordon open in the corner.", "Kuzma (no. 0). He was supposed to switch with Caldwell-Pope.", "Danny Green (no. 14). Can't allow yourself to get screened off like that.", "Anthony Davis (no. 3). He should have called for the switch when he got matched up against Harden."],
     concept: "overhelping"
 },
 {
@@ -81,7 +81,7 @@ const questions = [
     question: "10. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900213/133/31205d4b-a9e9-73db-2cc2-00f522d23e19_1280x720.mp4",
     answer: 2,
-    choices: ["Semi Ojeleye (no. 37). He overhelped, leaving his man open for 3.", "Robert Williams (no. 44). He's supposed to rotate from the paint to the 3-point line.", "Kemba Walker. Once he sees Ojeleye rotate to his man, he's supposed to x-out and get the shooter up top. He was too slow to react.", "No one. This play was defended well."],
+    choices: ["Semi Ojeleye (no. 37). He overhelped, leaving his man open for 3.", "Robert Williams (no. 44). He's supposed to rotate from the paint to the 3-point line.", "Kemba Walker (no. 8). Once he sees Ojeleye rotate to his man, he's supposed to x-out and get the shooter up top. He was too slow to react.", "No one. This play was defended well."],
     concept: "x-out",
     conceptLink: "https://medium.com/the-basketball-dictionary/x-out-78e01e2e4c9d"
 }
