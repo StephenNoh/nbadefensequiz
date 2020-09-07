@@ -8,7 +8,7 @@ const questions = [
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
 {
-    question: "2. Assume the Clippers are in a blitz defense. Who screwed up?",
+    question: "2. Assume the Clippers are hedging pick-and-rolls. Who screwed up?",
     choices: ["Kawhi Leonard. He should have switched onto Jokic.", "Montrezl Harrell. He was the low man and should have pulled over to the middle to stop the drive.", "Reggie Jackson (at the elbow). He didn't even take a step into the paint to stop Jokic.", "Lou Williams (guarding the corner). He was the closest man to Jokic."],
     answer: 1,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900231/130/0771e685-2407-3bab-77be-0cb580a363d4_1280x720.mp4",
@@ -24,7 +24,7 @@ const questions = [
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
 {
-    question: "4. Assume Denver is in a blitz. Who screwed up?",
+    question: "4. Assume Denver is in a hedge. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/01/0041900167/53/7de39e7b-8e3f-a446-50d3-2083c03804ac_1280x720.mp4",
     choices: ["Jokic. Gobert was his man.", "Murray. He needs to come down and double team Gobert when he catches that ball.", "Monte Morris (guarding the ball). He and Jokic should have switched.", "Millsap. He was in good position but he gambled for the steal."],
     answer: 3,
@@ -49,8 +49,8 @@ const questions = [
 {
     question: "7. Assume the Celtics are switching pick-and-rolls. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/05/0041900214/500/3fd6dccf-e607-b9f6-8f5b-86d14c803dc8_1280x720.mp4",
-    answer: 1,
-    choices: ["Kemba Walker (no. 8). He should have stayed with his man VanVleet.", "Jaylen Brown (no. 7). Brown was responsible for taking Grant Williams' guy when Williams shifted to protect the rim, and Brown lost track of Ibaka.", "Grant Williams (no. 12). Ibaka was his man originally, and Williams let him cut behind for the dunk.", "Marcus Smart (no. 36). He's supposed to sink down and take Williams' man."],
+    answer: 3,
+    choices: ["Kemba Walker (no. 8). He should have stayed with his man VanVleet.", "Jaylen Brown (no. 7). Brown was responsible for taking Grant Williams' guy when Williams shifted to protect the rim, and Brown lost track of Ibaka.", "Grant Williams (no. 12). Ibaka was his man originally, and Williams let him cut behind for the dunk.", "Both Walker and Brown. Walker didn't close out well, and Brown missed his rotation."],
     concept: "sink man",
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
