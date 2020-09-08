@@ -9,7 +9,7 @@ const questions = [
 },
 {
     question: "2. Assume the Clippers are hedging pick-and-rolls. Who screwed up?",
-    choices: ["Kawhi Leonard (no. 2, guarding the ball initially). He should have switched onto Jokic.", "Montrezl Harrell (no. 5). He was the low man and should have pulled over to the middle to stop the drive.", "Reggie Jackson (no. 4, at the elbow). He didn't even take a step into the paint to stop Jokic.", "Lou Williams (guarding the corner, no.23). He was the closest man to Jokic."],
+    choices: ["Kawhi Leonard (no. 2, guarding the ball initially). He should have switched onto Jokic.", "Montrezl Harrell (no. 5). He was the low man and should have pulled over to the middle to stop the drive.", "Reggie Jackson (no. 1, at the elbow). He didn't even take a step into the paint to stop Jokic.", "Lou Williams (guarding the corner, no.23). He was the closest man to Jokic."],
     answer: 1,
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900231/130/0771e685-2407-3bab-77be-0cb580a363d4_1280x720.mp4",
     concept: "low man",
