@@ -42,7 +42,7 @@ const questions = [
     question: "5. The Clippers are blitzing to get the ball out of Doncic's hands. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/08/25/0041900155/259/c93ef597-abe8-778e-3a22-7c6654123382_1280x720.mp4",
     answer: 2,
-    choices: ["Landry Shamet (no. 20). He should have left the corner to go help in the middle.", "Kawhi Leonard (no. 2). He has to hustle to get in the paint and protect against a layup.", "Paul George (no. 13). He was late helping the helper.", "Marcus Morris (no. 3). The guy who dunked was his man, and Morris was overhelping."],
+    choices: ["Landry Shamet (no. 20). He should have left the corner to go help in the middle.", "Kawhi Leonard (no. 2). He has to hustle to get in the paint and protect against a layup.", "Paul George (no. 13). He was late helping the helper.", "Marcus Morris (no. 31). The guy who dunked was his man, and Morris was overhelping."],
     concept: "sink man",
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
