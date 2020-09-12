@@ -31,13 +31,6 @@ const questions = [
     concept: "low man",
     conceptLink: "https://medium.com/the-basketball-dictionary/trap-the-box-c4ebe20d3929"
 },
-// {
-//     question: "5. Assume Toronto's scheme is to switch all picks up top. Who screwed up?",
-//     link: "https://videos.nba.com/nba/pbp/media/2020/08/30/0041900211/672/2106479e-b8d8-f9a9-422f-52da1d61c449_1280x720.mp4",
-//     choices: ["Terence Davis (no. 0). He didn't switch, and his man cut to the hoop for a dunk.", "Matt Thomas (no. 21). The guy who dunked was his original responsibility.", "Rondae Hollis-Jefferson (no. 4). He bit on an easy pump fake and had a bad contest on the dunk.", "Chris Boucher (no. 25). He's guarding the ball but he's supposed to have switched."],
-//     answer: 0,
-//     concept: "switching"
-// },
 {
     question: "5. The Clippers are blitzing to get the ball out of Doncic's hands. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/08/25/0041900155/259/c93ef597-abe8-778e-3a22-7c6654123382_1280x720.mp4",
@@ -50,7 +43,8 @@ const questions = [
     question: "6. Assume the Celtics are switching pick-and-rolls. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/05/0041900214/500/3fd6dccf-e607-b9f6-8f5b-86d14c803dc8_1280x720.mp4",
     answer: 3,
-    choices: ["Kemba Walker (no. 8). He should have stayed with his man VanVleet.", "Jaylen Brown (no. 7). Brown was responsible for taking Grant Williams' guy when Williams shifted to protect the rim, and Brown lost track of Ibaka.", "Grant Williams (no. 12). Ibaka was his man originally, and Williams let him cut behind for the dunk.", "Both Walker and Brown. Walker didn't close out well, and Brown missed his rotation."],
+    answer2: 1,
+    choices: ["Marcus Smart (no. 36). He should have come to the paint to help after he saw the drive coming.", "Jaylen Brown (no. 7). Brown was responsible for taking Grant Williams' guy when Williams shifted to protect the rim, and Brown lost track of Ibaka.", "Grant Williams (no. 12). Ibaka was his man originally, and Williams let him cut behind for the dunk.", "Both Walker and Brown. Walker didn't close out well, and Brown missed his rotation."],
     concept: "sink man",
     conceptLink: "https://medium.com/the-basketball-dictionary/sink-and-fill-56d3805bb5a6"
 },
@@ -81,6 +75,7 @@ const questions = [
     question: "10. Who screwed up?",
     link: "https://videos.nba.com/nba/pbp/media/2020/09/03/0041900213/133/31205d4b-a9e9-73db-2cc2-00f522d23e19_1280x720.mp4",
     answer: 2,
+    answer2: 3,
     choices: ["Semi Ojeleye (no. 37). He overhelped, leaving his man open for 3.", "Robert Williams (no. 44). He's supposed to rotate from the paint to the 3-point line.", "Kemba Walker (no. 8). Once he sees Ojeleye rotate to his man, he's supposed to x-out and get the shooter up top. He was too slow to react.", "No one. This play was defended well."],
     concept: "x-out",
     conceptLink: "https://medium.com/the-basketball-dictionary/x-out-78e01e2e4c9d"
@@ -100,7 +95,13 @@ const questions = [
 //     choices: ["Rondo. Why is he freelancing from the opposite side of the court?", "Anthony Davis. He's overhelping on a man that's not his responsibility and leaving a shooter open one pass away.", "Dwight Howard. He's supposed to rotate to the corner once they contain the pick-and-roll.", "No one. This play was guarded well."],
 //     concept: "overhelping"
 // },
-
+// {
+//     question: "5. Assume Toronto's scheme is to switch all picks up top. Who screwed up?",
+//     link: "https://videos.nba.com/nba/pbp/media/2020/08/30/0041900211/672/2106479e-b8d8-f9a9-422f-52da1d61c449_1280x720.mp4",
+//     choices: ["Terence Davis (no. 0). He didn't switch, and his man cut to the hoop for a dunk.", "Matt Thomas (no. 21). The guy who dunked was his original responsibility.", "Rondae Hollis-Jefferson (no. 4). He bit on an easy pump fake and had a bad contest on the dunk.", "Chris Boucher (no. 25). He's guarding the ball but he's supposed to have switched."],
+//     answer: 0,
+//     concept: "switching"
+// },
 // {
 //     question: "Who screwed up?",
 //     link: "https://videos.nba.com/nba/pbp/media/2020/08/13/0021901313/370/c7ae33a0-ba80-fd50-08c6-60cdb8ef8737_1280x720.mp4",
@@ -165,7 +166,7 @@ function showQuestion(question) {
     const button = document.createElement('button')
     button.innerText = answer
     button.classList.add('btn')
-    if (i == question.answer) {
+    if (i == question.answer || i == question.answer2) {
         button.dataset.correct = answer.correct
         }
     button.addEventListener('click', selectAnswer)
